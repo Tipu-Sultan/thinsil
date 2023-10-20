@@ -1,0 +1,68 @@
+
+.container {
+    text-align: center;
+}
+
+.login-box {
+    background: #ff6600;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* Set text color to white */
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Set text color to white */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff; /* Set input border to white */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #fff;
+    color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.options {
+    margin-top: 20px;
+    color: #fff; /* Set text color to white */
+}
+
+.options a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .login-box {
+        max-width: 100%;
+    }
+}
